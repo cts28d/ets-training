@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license ''
 description 'Installs/Configures ets-training'
 long_description 'Installs/Configures ets-training'
-version '0.1.7'
+version '0.1.8'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are

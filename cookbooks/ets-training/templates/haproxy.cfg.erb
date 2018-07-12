@@ -24,5 +24,5 @@ frontend http_front
 backend http_back
    balance roundrobin
   <% @backend_nodes.each do |node| %>
-    server <%= node.name %> <%= node['ipaddress'] %>:8080
+    server <%= node.name %> <%= node['ipaddress'] %>:8080 check
   <% end %>
