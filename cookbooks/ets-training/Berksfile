@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'haproxy', '~> 6.2.0'
+cookbook 'tomcat', '~> 3.0.0'
